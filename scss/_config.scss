@@ -28,3 +28,29 @@ $background-opacity: 0.9;
     }
   }
 }
+
+//media query Mixins
+
+@mixin mideaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+@mixin mideaMd {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mideaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170) {
+    @content;
+  }
+}
+
+@mixin mideaXl {
+  @media screen and {
+    min-width: 1171px;
+    @content;
+  }
+}
