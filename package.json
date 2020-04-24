@@ -13,13 +13,4 @@
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JankiChaudhari226/JankiChaudhari226.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/JankiChaudhari226/JankiChaudhari226.github.io/issues"
   }
-}
