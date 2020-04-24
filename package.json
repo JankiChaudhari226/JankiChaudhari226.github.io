@@ -4,7 +4,7 @@
   "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d JankiChaudhari226.github.io/dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Janki Chaudhari",
