@@ -4,11 +4,22 @@
   "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Janki Chaudhari",
   "license": "MIT",
+  "homepage": "https://JankiChaudhari226.github.io/JankiChaudhari226.github.io",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JankiChaudhari226/JankiChaudhari226.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JankiChaudhari226/JankiChaudhari226.github.io/issues"
   }
 }
