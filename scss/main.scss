@@ -78,9 +78,12 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
-  grid-template-columns: repeat(3, 1fr);
+    "bioimage bio"
+    "tools"
+    /**"job1 job2 job3"**/;
+  grid-template-columns:
+    auto auto
+    auto;
 
   .bio-image {
     grid-area: bioimage;
@@ -94,7 +97,12 @@ main {
     font-size: 1.5rem;
   }
 
-  .job-1 {
+  .tools {
+    grid-area: tools;
+    font-size: 1rem;
+  }
+
+  /** .job-1 {
     grid-area: job1;
   }
 
@@ -110,7 +118,7 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
-  }
+  }**/
 }
 
 // Work/Projects

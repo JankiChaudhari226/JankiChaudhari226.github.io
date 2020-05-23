@@ -12,5 +12,7 @@
   "homepage": "https://JankiChaudhari226.github.io/JankiChaudhari226.github.io",
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "typed.js": "^2.0.11"
   }
+}

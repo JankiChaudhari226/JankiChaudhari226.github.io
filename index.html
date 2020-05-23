@@ -10,9 +10,9 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-
+    <link rel="icon" href="../img/favicon.png" type="image/gif" sizes="42x42" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Welcome To My Portfolio</title>
+    <title>Janki's Portfolio</title>
   </head>
 
   <body id="bg-img">
@@ -57,14 +57,9 @@
         Janki
         <span class="text-secondary">Chaudhari</span>
       </h1>
-      <h2 class="sm-heading">
-        Web Developer, Programmer & Entrepreneur
-      </h2>
+      <h2><span id="typed"></span></h2>
       <div class="icons">
-        <a href="https://twitter.com/janki226" target="_blank">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="mailto:chaudharijanki72@gmail.com">
+        <a href="mailto:chaudharijanki72@gmail.com" target="_blank">
           <i class="fas fa-envelope-square fa-2x"></i>
         </a>
         <a href="https://www.linkedin.com/in/jankichaudhari/" target="_blank">
@@ -79,3 +74,16 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+  var typed = new Typed("#typed", {
+    strings: [
+      "I’m here to introduce myself.",
+      "I’m here to make the web friendlier for all.",
+      "I’m here to learn something new every day.",
+      "I’m here to make your coding dreams come true.",
+    ],
+    typeSpeed: 60,
+    backSpeed: 30,
+  });
+</script>
