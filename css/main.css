@@ -74,7 +74,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
-  border: solid 3px #eece1a;
+  border: solid 3px #ffcb77;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -84,7 +84,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #ffcb77;
 }
 .menu .nav-link {
   display: inline-block;
@@ -98,7 +98,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #ffcb77;
   transition: all 0.5s ease-out;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='white' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: bottom;
@@ -184,7 +184,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #ffcb77;
 }
 
 main {
@@ -203,7 +203,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #ffcb77;
   transition: all 0.5s ease-out;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='white' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: bottom;
@@ -232,7 +232,7 @@ main#home h1 {
   width: 200px;
   height: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid;
+  border: #ffcb77 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -286,7 +286,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #ffcb77;
   transition: all 0.5s ease-out;
 }
 
@@ -307,7 +307,7 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #eece1a;
+  background: #ffcb77;
   color: #000;
 }
 .boxes div:hover span {
@@ -325,7 +325,7 @@ main#home h1 {
 .btn:hover,
 .btn-dark:hover,
 .btn-light:hover {
-  background: #eece1a;
+  background: #ffcb77;
   color: #000;
 }
 
