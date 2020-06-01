@@ -391,7 +391,7 @@ main#home h1 {
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 20px;
   }
   .projects {
     grid-template-columns: 1fr;
