@@ -3,12 +3,18 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  .menu-btn {
+    display: block;
+  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
-  .projects {
+  .projectshow {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .menu-btn {
+    display: block;
   }
 }
 
@@ -50,6 +56,10 @@
       width: 150px;
       height: 150px;
     }
+
+    .menu-btn {
+      display: block;
+    }
   }
 
   .about-info {
@@ -64,8 +74,12 @@
     grid-template-columns: 1fr;
   }
 
-  .projects {
+  .projectshow {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-btn {
+    display: block;
   }
 }
 
@@ -83,7 +97,7 @@
     }
   }
 
-  .projects {
+  .projectshow {
     grid-template-columns: 1fr;
   }
 }
